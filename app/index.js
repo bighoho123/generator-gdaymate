@@ -17,38 +17,24 @@ var dhBoilerplateGenerator = yeoman.generators.Base.extend({
 
         // Have Yeoman greet the user.
         this.log(yosay(
-            'Welcome to the impressive ' + chalk.red('dhBoilerplate') + ' generator!'
+            'Welcome to the impressive ' + chalk.red('dhBoilerplate') + ' generator natively baked in Australia!'
         ));
 
         var welcome =
-                '\n ————————————————————————————————————————————————————————————————————————————————— '+
-                '\n                                                                                   '+
-                '\n               dddddddd                                                            '+
-                '\n               d::::::dhhhhhhh                                                     '+
-                '\n               d::::::dh:::::h                                                     '+
-                '\n               d::::::dh:::::h                                                     '+
-                '\n               d:::::d h:::::h                                                     '+
-                '\n       ddddddddd:::::d  h::::h hhhhh                                               '+
-                '\n     dd::::::::::::::d  h::::hh:::::hhh                                            '+
-                '\n    d::::::::::::::::d  h::::::::::::::hh                                          '+
-                '\n   d:::::::ddddd:::::d  h:::::::hhh::::::h                                         '+
-                '\n   d::::::d    d:::::d  h::::::h   h::::::h                                        '+
-                '\n   d:::::d     d:::::d  h:::::h     h:::::h                                        '+
-                '\n   d:::::d     d:::::d  h:::::h     h:::::h                                        '+
-                '\n   d:::::d     d:::::d  h:::::h     h:::::h                                        '+
-                '\n   d::::::ddddd::::::dd h:::::h     h:::::h                                        '+
-                '\n    d:::::::::::::::::d h:::::h     h:::::h                                        '+
-                '\n     d:::::::::ddd::::d h:::::h     h:::::h                                        '+
-                '\n      ddddddddd   ddddd hhhhhhh     hhhhhhh                                        '+
-                '\n                                                                                   '+
-                '\n                                                                                   '+
-                '\n    dhBoilerplate made with love & help.                                           '+
-                '\n    ---------------------------------------                                        '+
-                '\n    Author   :   David Hellmann                                                    '+
-                '\n    Website  :   http://davidhellmann.com                                          '+
-                '\n    Github   :   https://github.com/davidhellmann/generator-dhBoilerplate          '+
-                '\n                                                                                   '+
-                '\n ————————————————————————————————————————————————————————————————————————————————— ';
+'\n ————————————————————————————————————————————————————————————————————————————————— '+
+'\n            _____     _               __  __       _         _  '+
+'\n           / ____|   | |             |  \/  |     | |       | | '+
+'\n          | |  __  __| | __ _ _   _  | \  / | __ _| |_ ___  | | '+
+'\n          | | |_ |/ _` |/ _` | | | | | |\/| |/ _` | __/ _ \ | | '+
+'\n          | |__| | (_| | (_| | |_| | | |  | | (_| | ||  __/ |_| '+
+'\n           \_____|\__,_|\__,_|\__, | |_|  |_|\__,_|\__\___| (_) '+
+'\n                               __/ |                            '+
+'\n                              |___/                             '+
+'\n             This is a starting point for most of my work. '+
+'\n             --------------------------------------- '+
+'\n             Author   :   Jinzhe Li '+
+'\n             Email    :   jinjinwudi@gmail.com '
+'\n ————————————————————————————————————————————————————————————————————————————————— ';
 
         console.log(welcome);
 
@@ -57,7 +43,7 @@ var dhBoilerplateGenerator = yeoman.generators.Base.extend({
                 type:    'input',
                 name:    'projectName',
                 message: 'Please give your project a name (without Spaces)',
-                default: 'dhBoilerplate'
+                default: 'gdaymate'
             }, {
                 type:    'input',
                 name:    'projectDescription',
@@ -79,8 +65,8 @@ var dhBoilerplateGenerator = yeoman.generators.Base.extend({
                 message: 'Which purpose does this Project have? Choose the appropriate option',
                 choices: [
                     "Prototyping",
-                    "WordPress",
-                    "Craft CMS"
+                    // "WordPress",
+                    // "Craft CMS"
                 ]
             },{
                 when: function(answers) {

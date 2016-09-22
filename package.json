@@ -1,7 +1,7 @@
 {
-  "name": "generator-dhboilerplate",
-  "version": "2.6.25",
-  "description": "Boilerplate made by David Hellmann #gulp #npm #craftcms #wordpress #vue #twig",
+  "name": "generator-gdaymate",
+  "version": "0.0.1",
+  "description": "Boilterplate for twig prototyping",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
@@ -9,9 +9,8 @@
     "url": "https://github.com/davidhellmann/generator-dhBoilerplate"
   },
   "author": {
-    "name": "David Hellmann",
-    "email": "davidhellmann.com@gmail.com",
-    "url": "http://davidhellmann.com"
+    "name": "Jinzhe Li",
+    "email": "jinjinwudi@gmail.com",
   },
   "scripts": {
     "test": "mocha"

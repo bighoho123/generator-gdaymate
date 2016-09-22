@@ -1,48 +1,27 @@
-# YO Generator dhBoilerplate
+# YO Generator GdayMate
 
 ```
-              dddddddd
-              d::::::dhhhhhhh
-              d::::::dh:::::h
-              d::::::dh:::::h
-              d:::::d h:::::h
-      ddddddddd:::::d  h::::h hhhhh
-    dd::::::::::::::d  h::::hh:::::hhh
-   d::::::::::::::::d  h::::::::::::::hh
-  d:::::::ddddd:::::d  h:::::::hhh::::::h
-  d::::::d    d:::::d  h::::::h   h::::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d:::::d     d:::::d  h:::::h     h:::::h
-  d::::::ddddd::::::dd h:::::h     h:::::h
-   d:::::::::::::::::d h:::::h     h:::::h
-    d:::::::::ddd::::d h:::::h     h:::::h
-     ddddddddd   ddddd hhhhhhh     hhhhhhh
-
-
-   dhBoilerplate made with love & help.
+  _____     _               __  __       _         _ 
+ / ____|   | |             |  \/  |     | |       | |
+| |  __  __| | __ _ _   _  | \  / | __ _| |_ ___  | |
+| | |_ |/ _` |/ _` | | | | | |\/| |/ _` | __/ _ \ | |
+| |__| | (_| | (_| | |_| | | |  | | (_| | ||  __/ |_|
+ \_____|\__,_|\__,_|\__, | |_|  |_|\__,_|\__\___| (_)
+                     __/ |                           
+                    |___/                            
+   This is a starting point for most of my work.
    ---------------------------------------
-   Author   :   David Hellmann
-   Website  :   https://davidhellmann.com
-   Github   :   https://github.com/davidhellmann/generator-dhBoilerplate
+   Author   :   Jinzhe Li
+   Email    :   jinjinwudi@gmail.com
 ```
 
 
 ## Intro
 That's my own YO Generator who fits for my own requirements.
-Last year I go most of the time with CodeKit and a more oldsql workflow.
-Now, this one is more up to date :)
 
-Big thanks to [Sascha Fuchs](https://github.com/gisu) and his [Kittn](http://kittn.de/) for a lot of help and inspiration.
-Also big thanks to [Martin Herweg](https://github.com/martinherweg) and his [YO Generator](https://www.npmjs.com/package/generator-mh-boilerplate) that help me a lot too.
-And last but not least thanks to all members from our Slack Channel [webdevs](http://webdevs.xyz/) — feel free to join us.
-
+Credit to [David Hellmann](https://davidhellmann.com) and his awesome [DHBoilterplate] (https://github.com/davidhellmann/generator-dhBoilerplate)
 
 ## What is inside
-### This three scenarios are covered by the generator:
-- Prototyping (with Twig)
-- WordPress with a basic Starter Kit (WordPress itself must be Installed by Hand after the first `gulp init`)
-- Craft CMS with a basic Starter Kit (Craft CMS itself must be Installed by Hand after the first `gulp init`)
 
 ### Sass Functions
 - `borderradius('level-x')` or `br('level-x')`
@@ -73,7 +52,7 @@ And last but not least thanks to all members from our Slack Channel [webdevs](ht
 
 ## Install
 ```
-$ npm install -g generator-dhboilerplate
+$ npm install -g generator-gdaymate
 ```
 
 
@@ -81,7 +60,7 @@ $ npm install -g generator-dhboilerplate
 Jump in your Working Directory and type:
 
 ```
-yo dhboilerplate
+yo gdaymate
 ```
 Run through the options. When you're done grab a coffee. The node module installation take a while :)
 
@@ -138,15 +117,3 @@ gulp minify:sass
 gulp minify:images
 
 ```
-
-## Thanks to
-- webdevs - for so many things: [Website](http://webdevs.xyz)
-- Sascha Fuchs - for help help help: [Website](https://github.com/gisu)
-- Martin Herweg - for help help help: [Website](https://github.com/martinherweg)
-- CSS Tricks -  for Easing Map: [Website](https://css-tricks.com/snippets/sass/easing-map-get-function/)
-- Florian Kutschera - for the Material Design Box Shadows: [Website](https://medium.com/@Florian/freebie-google-material-design-shadow-helper-2a0501295a2d#.f1fz5ac2o)
-- Hugo Giraudel & Eduardo Bouças - for include media: [Website](http://include-media.com/)
-- @LukyVj - for family.scss: [Website](http://lukyvj.github.io/family.scss/)
-- inuitcss - for some snippets and inspiration: [website](https://github.com/inuitcss/inuitcss)
-
-[![bitHound Overall Score](https://www.bithound.io/github/davidhellmann/generator-dhBoilerplate/badges/score.svg)](https://www.bithound.io/github/davidhellmann/generator-dhBoilerplate)
