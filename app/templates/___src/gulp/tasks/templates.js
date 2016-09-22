@@ -12,7 +12,9 @@ const templates = () => {
       return gulp
         .src(config.src.templates + '**/[^_]*.{html,twig,rss}')
         .pipe($.plumber())
-        .pipe($.twig())
+        .pipe($.twig({
+          data: require("../../"+config.src.templates + 'data.json')
+        }))
         .on('error', errorHandler)
         //.pipe($.changed(config.dist.markup))
         .pipe(gulp.dest(config.dist.markup));

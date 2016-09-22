@@ -10,7 +10,7 @@
   },
   "author": {
     "name": "Jinzhe Li",
-    "email": "jinjinwudi@gmail.com",
+    "email": "jinjinwudi@gmail.com"
   },
   "scripts": {
     "test": "mocha"

@@ -6,7 +6,7 @@ var yosay  = require('yosay');
 var chalk  = require('chalk');
 var mkdirp = require('mkdirp');
 
-var dhBoilerplateGenerator = yeoman.generators.Base.extend({
+var dhBoilerplateGenerator = yeoman.Base.extend({
 
     init: function () {
         this.pkg = require('../package.json');
@@ -17,24 +17,21 @@ var dhBoilerplateGenerator = yeoman.generators.Base.extend({
 
         // Have Yeoman greet the user.
         this.log(yosay(
-            'Welcome to the impressive ' + chalk.red('dhBoilerplate') + ' generator natively baked in Australia!'
+            'Welcome to the impressive ' + chalk.red('GdayMate!') + ' generator natively baked in Australia!'
         ));
 
         var welcome =
-'\n ————————————————————————————————————————————————————————————————————————————————— '+
-'\n            _____     _               __  __       _         _  '+
-'\n           / ____|   | |             |  \/  |     | |       | | '+
-'\n          | |  __  __| | __ _ _   _  | \  / | __ _| |_ ___  | | '+
-'\n          | | |_ |/ _` |/ _` | | | | | |\/| |/ _` | __/ _ \ | | '+
-'\n          | |__| | (_| | (_| | |_| | | |  | | (_| | ||  __/ |_| '+
-'\n           \_____|\__,_|\__,_|\__, | |_|  |_|\__,_|\__\___| (_) '+
-'\n                               __/ |                            '+
-'\n                              |___/                             '+
-'\n             This is a starting point for most of my work. '+
-'\n             --------------------------------------- '+
-'\n             Author   :   Jinzhe Li '+
-'\n             Email    :   jinjinwudi@gmail.com '
-'\n ————————————————————————————————————————————————————————————————————————————————— ';
+'\n ———————————————————————————————————————————————————————————————————————————————————————————————————— '+
+'\n                                                                                                      '+
+'\n                                                                                                      '+
+'\n  This is a starting point for most of my work. '+
+'\n  --------------------------------------- '+
+'\n  Author   :   Jinzhe Li '+
+'\n  Email    :   jinjinwudi@gmail.com '+
+'\n                                                                                                      '+
+'\n                                                                                                      '+
+'\n                                                                                                      '+
+'\n ———————————————————————————————————————————————————————————————————————————————————————————————————— ';
 
         console.log(welcome);
 
