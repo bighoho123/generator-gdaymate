@@ -75,6 +75,12 @@ Intialize your Project simple with `gulp init`
 gulp
 ```
 
+### Task for watch & deploy on live site (DANGEROUS)
+
+```
+gulp live
+```
+
 
 ### Task for Building
 This Task clean the folder, build the stuff from ground up and optimize the images and minifiy JS / CSS files. Ready for live!
@@ -116,4 +122,7 @@ gulp minify:js
 gulp minify:sass
 gulp minify:images
 
+// FTP Tasks
+// This only updates news files. FTP deets should be set in config.json in root
+gulp upload:dist
 ```
