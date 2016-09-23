@@ -98,7 +98,7 @@ var dhBoilerplateGenerator = yeoman.Base.extend({
                 type: 'confirm',
                 name: 'projectVue',
                 message: 'Do you want to use Vue.js?',
-                default: false
+                default: true
             }, {
                 type:    'input',
                 name:    'projectVersion',

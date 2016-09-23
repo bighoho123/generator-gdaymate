@@ -1,12 +1,12 @@
 {
   "name": "generator-gdaymate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Boilterplate for twig prototyping",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidhellmann/generator-dhBoilerplate"
+    "url": "https://github.com/bighoho123/generator-gdaymate"
   },
   "author": {
     "name": "Jinzhe Li",

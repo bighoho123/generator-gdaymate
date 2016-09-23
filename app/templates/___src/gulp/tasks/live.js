@@ -1,18 +1,20 @@
 import gulp from 'gulp';
 import runSequence from 'run-sequence';
 
-const defaultTask = (cb) => {
+const liveTask = (cb) => {
   runSequence(
     [
       'browser-sync',
       'watch',
-      'watch:js'
+      'watch:js',
+      'watch:dist'
     ],
     [
       'all-done'
     ],
+    cb
   )
 }
 
-gulp.task('default', defaultTask);
-module.exports = defaultTask;
+gulp.task('live', liveTask);
+module.exports = liveTask;

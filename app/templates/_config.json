@@ -169,5 +169,12 @@
       "progressive": true,
       "interlaced": true
     }
+  },
+
+  "ftp": {
+    "ftpHost": "ftp.mentalhs.com.au",
+    "ftpUser": "ftp@mentalhs.com.au",
+    "ftpPass": "password",
+    "remote": "/test/"
   }
 }
